@@ -1677,6 +1677,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 127) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096885bf-baf0-4fd7-969b-9b9b895a76df")
+	)
+	(wire
+		(pts
 			(xy 116.84 104.14) (xy 119.38 104.14)
 		)
 		(stroke
@@ -1847,6 +1857,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 139.7) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49369ba0-3243-4824-84d2-fa284e1dd737")
+	)
+	(wire
+		(pts
 			(xy 83.82 110.49) (xy 83.82 111.76)
 		)
 		(stroke
@@ -1914,16 +1934,6 @@
 			(type default)
 		)
 		(uuid "5ae2def8-318f-4037-94e5-76f89e4742b0")
-	)
-	(wire
-		(pts
-			(xy 93.98 127) (xy 106.68 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc5c32e-024b-4916-a299-3fb755210c53")
 	)
 	(polyline
 		(pts
@@ -2095,6 +2105,16 @@
 		)
 		(uuid "8d4689c0-eb33-4d35-a74a-0ea9af01cddb")
 	)
+	(wire
+		(pts
+			(xy 73.66 129.54) (xy 73.66 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bf9fba-bb7e-488e-b5a5-8db372f86d93")
+	)
 	(polyline
 		(pts
 			(xy 12.7 25.4) (xy 284.48 25.4)
@@ -2244,6 +2264,16 @@
 			(type default)
 		)
 		(uuid "c7143471-83b3-4d0c-981f-e603be9a410a")
+	)
+	(wire
+		(pts
+			(xy 73.66 120.65) (xy 73.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca047d71-f8ac-4409-9149-f7119b2d9e3d")
 	)
 	(wire
 		(pts
@@ -2516,7 +2546,7 @@
 		(uuid "fff13ccb-3862-4b7c-82de-39ca7494c2bc")
 	)
 	(label "OPA300_En"
-		(at 93.98 127 0)
+		(at 76.2 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2711,6 +2741,136 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
 					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fcc26db-ca9d-46ba-b705-f2d22333191d")
+		(property "Reference" "R109"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.882 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 PPM / C"
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-13100KL"
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltge Rating" ""
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85d0d6ff-e8e2-4331-94c7-1596a7bd520c")
+		)
+		(pin "2"
+			(uuid "b0b4d397-757e-4577-8df8-bb3643d4834a")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -3169,6 +3329,72 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
 					(reference "TP102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 73.66 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "241b5739-47af-41e0-8d46-1a5d619e2b81")
+		(property "Reference" "#PWR0114"
+			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 73.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec495013-5b54-437a-b21b-84cfa0a2d73e")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
