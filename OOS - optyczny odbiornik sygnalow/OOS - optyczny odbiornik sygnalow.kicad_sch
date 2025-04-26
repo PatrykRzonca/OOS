@@ -1612,6 +1612,16 @@
 		)
 		(uuid "e70db71c-d62b-4195-80ba-5ba96a473c3f")
 	)
+	(text "dodac 10n"
+		(exclude_from_sim no)
+		(at 73.025 90.805 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7302513-46c2-41a7-9e7c-aec2cb850519")
+	)
 	(text "3V33"
 		(exclude_from_sim no)
 		(at 77.47 110.49 0)
