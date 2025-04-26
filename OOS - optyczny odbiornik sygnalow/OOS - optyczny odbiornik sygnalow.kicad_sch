@@ -1490,6 +1490,16 @@
 		)
 		(uuid "32a4a392-5f32-4c9c-b10a-ebc003abf7d2")
 	)
+	(text "zmienic na 1pF"
+		(exclude_from_sim no)
+		(at 106.68 78.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77a28738-f26b-427f-9f10-54c2733dd2e6")
+	)
 	(text "FEATURES\n High Bandwidth: 150MHz\n 16-Bit Settling in 150ns\n Low Noise: 3nV/√Hz\n Low Distortion: 0.003%\n Low Power: 9.5mA (typ) on 5.5V\n Shutdown to 5μA\n Unity-Gain Stable\n Excellent Output Swing:\n(V+) − 100mV to (V−) + 100mV\n Single Supply: +2.7V to +5.5V\n Tiny Packages: MSOP and SOT23"
 		(exclude_from_sim no)
 		(at 127 141.478 0)
@@ -1500,6 +1510,26 @@
 		)
 		(uuid "8332627f-62fa-4839-a2b1-5d01d95903dd")
 	)
+	(text "zmienic na 100p"
+		(exclude_from_sim no)
+		(at 122.555 97.155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85a9c6c2-3d8e-41b6-ab06-8d8f33a26650")
+	)
+	(text "zmienic na 1kR"
+		(exclude_from_sim no)
+		(at 154.305 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89eb9ed7-499d-4ff8-8b1a-643b637e12e1")
+	)
 	(text "AC Coupling"
 		(exclude_from_sim no)
 		(at 123.19 100.33 0)
@@ -1509,6 +1539,16 @@
 			)
 		)
 		(uuid "989cf9fc-4f5e-4ab2-8d03-1ebc825aabe1")
+	)
+	(text "zmienic na 500R"
+		(exclude_from_sim no)
+		(at 121.92 85.725 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a95c821e-2b8f-4916-8cc6-696554938694")
 	)
 	(text "Square signal\nfnom 2[MHz]\nfmax 15[MHz]\nImin 1[uA]\nImax 100[uA]"
 		(exclude_from_sim no)
@@ -1544,13 +1584,23 @@
 	)
 	(text "Inverting amplifier\nx10 (10k/1k)"
 		(exclude_from_sim no)
-		(at 149.86 83.312 0)
+		(at 152.4 85.725 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "cf98d686-d501-4e7d-89c3-c40b9afd3bc2")
+	)
+	(text "zmienic na 1pF"
+		(exclude_from_sim no)
+		(at 172.085 99.695 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ddb51640-d60e-4e95-aa30-2a8e39d2d30b")
 	)
 	(text "1nF  @ 159kHz"
 		(exclude_from_sim no)
@@ -1572,6 +1622,26 @@
 			(justify left)
 		)
 		(uuid "f73978a8-9884-4960-a331-f5a5e682fef0")
+	)
+	(text "dodac 2x 10n"
+		(exclude_from_sim no)
+		(at 169.545 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa334bc4-f5cc-468b-8d3d-aadc18508e09")
+	)
+	(text "zmienic na 100R"
+		(exclude_from_sim no)
+		(at 136.525 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "facc059f-4ded-4c33-a26d-a8929f277422")
 	)
 	(text_box "Design note:\n-"
 		(exclude_from_sim no)
@@ -1668,16 +1738,10 @@
 		(uuid "ca2c6d63-d9f1-43ed-9a7e-1e26318859bd")
 	)
 	(junction
-		(at 162.56 92.71)
+		(at 116.84 89.535)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07ee4b80-f035-4a8b-8f75-d705734f8f36")
-	)
-	(junction
-		(at 142.24 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16a36b95-a836-4958-b2ab-6b072a88533c")
+		(uuid "101ab917-3982-4976-ae23-905db0fe285a")
 	)
 	(junction
 		(at 116.84 104.14)
@@ -1714,6 +1778,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39c8d794-9322-4460-82d8-804a36d4139e")
+	)
+	(junction
+		(at 142.24 92.075)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "467509a6-1227-4a60-9d1a-9e6f82c363e3")
 	)
 	(junction
 		(at 83.82 110.49)
@@ -1764,7 +1834,7 @@
 		(uuid "709d4512-dc72-4406-abb3-98b9ce008f4a")
 	)
 	(junction
-		(at 113.03 90.17)
+		(at 113.03 89.535)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81da00d5-89f0-4a14-90d1-aad81bf6cee9")
@@ -1776,16 +1846,16 @@
 		(uuid "899f6e84-ca9f-445b-873b-5f988c0caecc")
 	)
 	(junction
-		(at 96.52 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "910cbcd8-3ac6-42ae-bd03-3656326e47ce")
-	)
-	(junction
 		(at 31.75 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ef04d68-947c-4345-9e57-d00066a75e7b")
+	)
+	(junction
+		(at 100.33 89.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a110ae1d-6122-49bb-96ac-737eb87a5f70")
 	)
 	(junction
 		(at 111.76 127)
@@ -1800,10 +1870,10 @@
 		(uuid "a5126538-c675-4edb-9e93-247748524cc7")
 	)
 	(junction
-		(at 100.33 90.17)
+		(at 162.56 92.075)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b085ba9c-4818-4eed-a782-539b96a5f42d")
+		(uuid "ac1b734a-8b77-4faa-a6a2-994821515018")
 	)
 	(junction
 		(at 129.54 104.14)
@@ -1818,12 +1888,6 @@
 		(uuid "cb9a77d6-d83e-4bbd-8fd0-fa10e7c64392")
 	)
 	(junction
-		(at 116.84 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de26ee10-1dc2-4ed7-a32b-c4661cdaab93")
-	)
-	(junction
 		(at 162.56 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1834,6 +1898,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9a34a21-ee32-4b57-86af-7cfaa77e6cce")
+	)
+	(junction
+		(at 96.52 89.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebb4eadf-1082-4103-b292-09ae28556b9c")
 	)
 	(junction
 		(at 114.3 69.85)
@@ -1898,16 +1968,6 @@
 			(type default)
 		)
 		(uuid "04b06cec-d10b-4025-a822-4055eb6fa89a")
-	)
-	(wire
-		(pts
-			(xy 96.52 90.17) (xy 96.52 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0620102b-e380-4998-a20b-06a9b0bd0037")
 	)
 	(wire
 		(pts
@@ -1981,6 +2041,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 92.075) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194375b2-628d-47b3-86f1-0daeba43071d")
+	)
+	(wire
+		(pts
 			(xy 104.14 111.76) (xy 104.14 113.03)
 		)
 		(stroke
@@ -1998,6 +2068,16 @@
 			(type default)
 		)
 		(uuid "1cf54a79-e50a-49c6-a501-88f2a7a0ea10")
+	)
+	(wire
+		(pts
+			(xy 116.84 89.535) (xy 116.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e494032-cc7e-4e42-8ce6-742b18bac1ed")
 	)
 	(wire
 		(pts
@@ -2099,16 +2179,6 @@
 		)
 		(uuid "393fabd4-fb3d-4ea3-98b0-6598322e140c")
 	)
-	(wire
-		(pts
-			(xy 142.24 92.71) (xy 148.59 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f22b8d-d8cb-407b-847a-8e0a0a259931")
-	)
 	(polyline
 		(pts
 			(xy 99.06 67.31) (xy 99.06 69.85)
@@ -2188,6 +2258,16 @@
 			(type default)
 		)
 		(uuid "4af85985-b7c3-4e7b-bf84-aa6ddf6221b7")
+	)
+	(wire
+		(pts
+			(xy 96.52 89.535) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b222e4e-8ec9-4a86-ab35-b0601a90c3d1")
 	)
 	(polyline
 		(pts
@@ -2391,16 +2471,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 92.71) (xy 142.24 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be63edf-9122-44d4-9ac8-56c7f1e1a033")
-	)
-	(wire
-		(pts
 			(xy 96.52 110.49) (xy 96.52 106.68)
 		)
 		(stroke
@@ -2461,7 +2531,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 90.17) (xy 96.52 90.17)
+			(xy 100.33 89.535) (xy 96.52 89.535)
 		)
 		(stroke
 			(width 0)
@@ -2549,6 +2619,16 @@
 		)
 		(uuid "a8788739-24c4-4f64-8b61-4d4800574f2a")
 	)
+	(wire
+		(pts
+			(xy 96.52 89.535) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac744451-7027-4e13-aa01-90fd59b9e480")
+	)
 	(polyline
 		(pts
 			(xy 90.17 67.31) (xy 91.44 67.31)
@@ -2558,16 +2638,6 @@
 			(type default)
 		)
 		(uuid "af5ec7b0-bde2-45a8-9c60-7c3da1e81fab")
-	)
-	(wire
-		(pts
-			(xy 162.56 106.68) (xy 162.56 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1b69399-6f7c-494c-8e06-b74130c014bb")
 	)
 	(wire
 		(pts
@@ -2639,16 +2709,6 @@
 		)
 		(uuid "c4f52f3a-e39a-4e8c-b59b-9a8b29247ab2")
 	)
-	(wire
-		(pts
-			(xy 96.52 101.6) (xy 96.52 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6d6b731-b17c-4922-a86a-cbaf3712cee1")
-	)
 	(polyline
 		(pts
 			(xy 88.9 69.85) (xy 90.17 69.85)
@@ -2711,6 +2771,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 92.075) (xy 148.59 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6d7170-0741-4428-b9df-b0f436a3d95e")
+	)
+	(wire
+		(pts
 			(xy 31.75 93.98) (xy 31.75 91.44)
 		)
 		(stroke
@@ -2721,7 +2791,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 90.17) (xy 116.84 81.28)
+			(xy 142.24 92.075) (xy 142.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5182bb-221f-4ea3-86b4-f3e0e377b42e")
+	)
+	(wire
+		(pts
+			(xy 116.84 89.535) (xy 116.84 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2741,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 90.17) (xy 113.03 90.17)
+			(xy 116.84 89.535) (xy 113.03 89.535)
 		)
 		(stroke
 			(width 0)
@@ -2781,7 +2861,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 156.21 92.71)
+			(xy 156.21 92.075) (xy 162.56 92.075)
 		)
 		(stroke
 			(width 0)
@@ -2841,16 +2921,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 104.14) (xy 116.84 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd4957d3-990d-4a0b-a31f-73b6b5033153")
-	)
-	(wire
-		(pts
 			(xy 114.3 58.42) (xy 114.3 59.69)
 		)
 		(stroke
@@ -2871,7 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 90.17) (xy 110.49 90.17)
+			(xy 110.49 89.535) (xy 113.03 89.535)
 		)
 		(stroke
 			(width 0)
@@ -2931,6 +3001,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 89.535) (xy 102.87 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc3b87c-2a85-4eb2-a512-bfc5a7fa0c94")
+	)
+	(wire
+		(pts
 			(xy 30.48 99.06) (xy 31.75 99.06)
 		)
 		(stroke
@@ -2938,16 +3018,6 @@
 			(type default)
 		)
 		(uuid "efdb4d19-1efa-4343-95ee-ee184339ef7e")
-	)
-	(wire
-		(pts
-			(xy 102.87 90.17) (xy 100.33 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1704290-ab18-4ce0-9e65-c604bbab45f5")
 	)
 	(wire
 		(pts
@@ -3161,7 +3231,7 @@
 		(dnp no)
 		(uuid "0d447843-94cb-47a0-bea4-edbc5d11369d")
 		(property "Reference" "C102"
-			(at 86.36 84.582 0)
+			(at 86.36 85.09 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3170,7 +3240,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 86.36 86.106 0)
+			(at 86.36 86.36 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3218,7 +3288,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 86.36 89.154 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3237,12 +3307,11 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 86.36 90.678 0)
+			(at 83.82 87.63 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify right)
 			)
 		)
 		(property "Supplier" "Digi Key"
@@ -3256,13 +3325,12 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 83.82 87.63 0)
+			(at 86.36 90.17 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3290,7 +3358,7 @@
 		(dnp no)
 		(uuid "0fcc26db-ca9d-46ba-b705-f2d22333191d")
 		(property "Reference" "R109"
-			(at 74.93 124.46 0)
+			(at 74.93 123.825 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3299,7 +3367,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 74.93 127 0)
+			(at 74.93 125.095 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3338,23 +3406,21 @@
 			)
 		)
 		(property "Power Rating" "62.5 mW"
-			(at 73.66 125.73 0)
+			(at 74.93 127.635 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 73.66 125.73 0)
+			(at 74.93 126.365 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Temperature Coefficient" "100 PPM / C"
@@ -3430,7 +3496,7 @@
 		(dnp no)
 		(uuid "129be21f-15aa-4c18-bc60-133c73897998")
 		(property "Reference" "C101"
-			(at 102.87 80.01 90)
+			(at 105.41 80.01 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3439,12 +3505,12 @@
 			)
 		)
 		(property "Value" "3p"
-			(at 110.49 80.01 90)
+			(at 107.95 80.01 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -3498,12 +3564,12 @@
 			)
 		)
 		(property "Tolerance" "±0,05pF "
-			(at 113.03 82.55 90)
+			(at 107.95 82.55 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Package" "0402"
@@ -3512,11 +3578,10 @@
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 102.87 82.55 90)
+			(at 105.41 82.55 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3758,7 +3823,7 @@
 		(dnp no)
 		(uuid "16e16476-4fd0-4d46-ba61-2339d4b4cc1f")
 		(property "Reference" "R108"
-			(at 176.53 111.76 0)
+			(at 176.53 111.125 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3767,7 +3832,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 176.53 114.3 0)
+			(at 176.53 112.395 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3806,23 +3871,21 @@
 			)
 		)
 		(property "Power Rating" "62,5mW"
-			(at 175.26 113.03 90)
+			(at 176.53 113.665 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "±0,1%"
-			(at 175.26 113.03 90)
+			(at 176.53 114.935 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Temperature Coefficient" "25ppm/°C"
@@ -3888,7 +3951,7 @@
 		(dnp no)
 		(uuid "171f502d-ffe8-4b2a-a8f5-eab7a14c27ca")
 		(property "Reference" "R104"
-			(at 85.09 114.3 0)
+			(at 85.09 113.665 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3897,7 +3960,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 85.09 116.84 0)
+			(at 85.09 114.935 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3936,23 +3999,21 @@
 			)
 		)
 		(property "Power Rating" "62.5 mW"
-			(at 83.82 115.57 0)
+			(at 85.09 117.475 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 83.82 115.57 0)
+			(at 85.09 116.205 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Temperature Coefficient" "100 PPM / C"
@@ -4020,7 +4081,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 162.56 92.71 0)
+		(at 162.56 92.075 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4028,7 +4089,7 @@
 		(dnp no)
 		(uuid "1918416f-2d11-41a2-bdfc-805dcd0db8a4")
 		(property "Reference" "TP102"
-			(at 162.56 91.44 0)
+			(at 162.56 90.805 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4037,7 +4098,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 163.83 93.9799 0)
+			(at 163.83 93.3449 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4047,7 +4108,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 167.64 92.71 0)
+			(at 167.64 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4057,7 +4118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 92.71 0)
+			(at 167.64 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4067,7 +4128,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 162.56 92.71 0)
+			(at 162.56 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4077,7 +4138,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 162.56 92.71 0)
+			(at 162.56 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4086,7 +4147,7 @@
 			)
 		)
 		(property "Voltge Rating" ""
-			(at 162.56 92.71 0)
+			(at 162.56 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4126,7 +4187,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 73.66 108.458 0)
+			(at 73.66 109.22 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4196,7 +4257,7 @@
 			)
 		)
 		(property "Value" "+V_photo"
-			(at 63.5 76.2 90)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4326,7 +4387,7 @@
 		(dnp no)
 		(uuid "3779868a-956f-491a-a0f8-71499f289527")
 		(property "Reference" "R106"
-			(at 132.842 102.108 90)
+			(at 135.89 102.235 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4335,7 +4396,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 135.89 104.14 90)
+			(at 138.43 102.235 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4384,7 +4445,7 @@
 			)
 		)
 		(property "Tolerance" "±0,1%"
-			(at 138.938 102.108 90)
+			(at 138.43 106.045 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4422,12 +4483,11 @@
 			)
 		)
 		(property "Type" "Thin Film"
-			(at 135.89 106.426 90)
+			(at 135.89 100.965 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
 			)
 		)
 		(pin "2"
@@ -4525,7 +4585,7 @@
 		(dnp no)
 		(uuid "3a242c3a-4ccf-494c-b486-b100d1d81e19")
 		(property "Reference" "U102"
-			(at 149.86 102.108 0)
+			(at 149.86 100.965 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4534,7 +4594,7 @@
 			)
 		)
 		(property "Value" "OPA300AIDBVR"
-			(at 156.21 121.92 90)
+			(at 149.86 102.235 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4619,7 +4679,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 92.71 90)
+		(at 152.4 92.075 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4627,7 +4687,7 @@
 		(dnp no)
 		(uuid "3ba286ef-f641-4570-b4ce-4498fe153404")
 		(property "Reference" "R107"
-			(at 149.352 90.17 90)
+			(at 152.4 90.17 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4636,7 +4696,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 152.4 92.71 90)
+			(at 154.94 90.17 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4645,7 +4705,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 94.488 90)
+			(at 152.4 93.853 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4655,7 +4715,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/a9e9eb6d958401436e4129d9d571cc37/PYu-RT_1-to-0.05_RoHS_L_4.pdf"
-			(at 152.4 92.71 0)
+			(at 152.4 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4665,7 +4725,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 92.71 0)
+			(at 152.4 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4675,7 +4735,7 @@
 			)
 		)
 		(property "Power Rating" "62.5 mW"
-			(at 152.4 92.71 0)
+			(at 152.4 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4685,7 +4745,7 @@
 			)
 		)
 		(property "Tolerance" "±0,1%"
-			(at 155.448 90.17 90)
+			(at 154.94 93.98 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4694,7 +4754,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "25ppm/°C"
-			(at 152.4 92.71 0)
+			(at 152.4 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4704,7 +4764,7 @@
 			)
 		)
 		(property "MPN" "RT0402BRD0710KL"
-			(at 152.4 92.71 90)
+			(at 152.4 92.075 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4714,7 +4774,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 152.4 92.71 0)
+			(at 152.4 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4723,12 +4783,11 @@
 			)
 		)
 		(property "Type" "Thin Film"
-			(at 152.4 88.392 90)
+			(at 152.4 88.9 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
 			)
 		)
 		(pin "1"
@@ -4756,7 +4815,7 @@
 		(dnp no)
 		(uuid "4000a3c7-a220-4091-b6be-3026c349ce6b")
 		(property "Reference" "R102"
-			(at 74.93 79.248 90)
+			(at 74.93 79.375 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4765,7 +4824,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 74.93 81.28 90)
+			(at 77.47 79.375 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4804,7 +4863,7 @@
 			)
 		)
 		(property "Power Rating" "100mW"
-			(at 74.93 83.566 90)
+			(at 74.93 83.185 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4813,7 +4872,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 74.93 85.598 90)
+			(at 77.47 83.185 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5025,24 +5084,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4cfdb189-f810-4476-9385-ecce7c80a34a")
 		(property "Reference" "D101"
-			(at 90.4875 73.66 0)
+			(at 90.17 75.565 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "BPX65"
-			(at 90.4875 76.2 0)
+			(at 90.17 76.835 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5276,7 +5332,7 @@
 		(dnp no)
 		(uuid "55dba492-e80f-49c2-adf3-4f8053023dbb")
 		(property "Reference" "TP101"
-			(at 176.53 102.87 90)
+			(at 175.26 106.045 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5592,7 +5648,7 @@
 		(dnp no)
 		(uuid "679f02b2-98a7-4f09-b476-49e48347fa94")
 		(property "Reference" "TP111"
-			(at 67.31 77.47 90)
+			(at 67.31 80.645 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5672,7 +5728,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 142.24 92.71 0)
+		(at 142.24 92.075 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5680,7 +5736,7 @@
 		(dnp no)
 		(uuid "6babb687-e188-491d-a7fd-908beafc9a4b")
 		(property "Reference" "TP103"
-			(at 142.24 91.44 0)
+			(at 142.24 90.805 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5689,7 +5745,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 143.51 93.9799 0)
+			(at 143.51 93.3449 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5699,7 +5755,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 147.32 92.71 0)
+			(at 147.32 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5709,7 +5765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 92.71 0)
+			(at 147.32 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5719,7 +5775,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 142.24 92.71 0)
+			(at 142.24 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5729,7 +5785,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 142.24 92.71 0)
+			(at 142.24 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5738,7 +5794,7 @@
 			)
 		)
 		(property "Voltge Rating" ""
-			(at 142.24 92.71 0)
+			(at 142.24 92.075 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5768,7 +5824,7 @@
 		(dnp no)
 		(uuid "6c60f902-bf1c-4f73-81d2-bf5405245fe6")
 		(property "Reference" "TP110"
-			(at 81.28 77.47 90)
+			(at 81.28 80.645 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5856,7 +5912,7 @@
 		(dnp no)
 		(uuid "6cf05f24-687a-44e6-ae04-efeb1aa8e36a")
 		(property "Reference" "TP104"
-			(at 129.54 107.696 90)
+			(at 129.54 103.505 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6014,7 +6070,7 @@
 		(dnp no)
 		(uuid "7d87242f-f561-496e-a634-0bfc2b5447eb")
 		(property "Reference" "R103"
-			(at 85.09 104.14 0)
+			(at 85.09 103.505 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6023,7 +6079,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 85.09 106.68 0)
+			(at 85.09 104.775 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6062,23 +6118,21 @@
 			)
 		)
 		(property "Power Rating" "62.5 mW"
-			(at 83.82 105.41 0)
+			(at 85.09 107.315 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 83.82 105.41 0)
+			(at 85.09 106.045 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Temperature Coefficient" "100 PPM / C"
@@ -6154,7 +6208,7 @@
 		(dnp no)
 		(uuid "7f089513-afd3-43e5-a8b9-78f5772f09bb")
 		(property "Reference" "R105"
-			(at 85.09 124.46 0)
+			(at 85.09 123.825 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6163,7 +6217,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 85.09 127 0)
+			(at 85.09 125.095 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6202,23 +6256,21 @@
 			)
 		)
 		(property "Power Rating" "62.5 mW"
-			(at 83.82 125.73 0)
+			(at 85.09 127.635 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 83.82 125.73 0)
+			(at 85.09 126.365 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Temperature Coefficient" "100 PPM / C"
@@ -6294,7 +6346,7 @@
 		(dnp no)
 		(uuid "8022cb01-7f87-4f2c-a501-e8a88aae484d")
 		(property "Reference" "U101"
-			(at 104.14 99.568 0)
+			(at 104.14 98.425 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6303,7 +6355,7 @@
 			)
 		)
 		(property "Value" "OPA300AIDBVR"
-			(at 110.49 119.38 90)
+			(at 104.14 99.695 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6575,7 +6627,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 90.17 90)
+		(at 106.68 89.535 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6583,7 +6635,7 @@
 		(dnp no)
 		(uuid "91aad04e-d2e3-4dc4-b994-bb70c368a564")
 		(property "Reference" "R101"
-			(at 103.886 88.138 90)
+			(at 106.68 87.63 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6592,7 +6644,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 106.68 90.17 90)
+			(at 109.22 87.63 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6601,7 +6653,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 106.68 91.948 90)
+			(at 106.68 91.313 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6611,7 +6663,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
-			(at 106.68 90.17 0)
+			(at 106.68 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6621,7 +6673,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 90.17 0)
+			(at 106.68 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6631,7 +6683,7 @@
 			)
 		)
 		(property "Power Rating" "62,5mW"
-			(at 106.68 90.17 90)
+			(at 106.68 89.535 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6641,7 +6693,7 @@
 			)
 		)
 		(property "Tolerance" "±0,1%"
-			(at 109.728 88.138 90)
+			(at 109.22 91.44 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6650,7 +6702,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "25ppm/°C"
-			(at 106.68 90.17 90)
+			(at 106.68 89.535 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6660,7 +6712,7 @@
 			)
 		)
 		(property "MPN" "RT0402BRD071KL"
-			(at 106.68 90.17 0)
+			(at 106.68 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6670,7 +6722,7 @@
 			)
 		)
 		(property "Voltge Rating" ""
-			(at 106.68 90.17 0)
+			(at 106.68 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6684,7 +6736,6 @@
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
 			)
 		)
 		(pin "2"
@@ -7017,7 +7068,7 @@
 		(dnp no)
 		(uuid "a76e23b7-25a3-4507-bc11-6558f168ed1d")
 		(property "Reference" "C104"
-			(at 165.1 105.41 90)
+			(at 167.64 105.41 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7026,12 +7077,12 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 171.45 105.41 90)
+			(at 170.18 105.41 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -7065,7 +7116,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 165.1 107.95 90)
+			(at 167.64 107.95 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7074,21 +7125,20 @@
 			)
 		)
 		(property "Dielectric" "C0G (NP0)"
-			(at 168.91 110.49 90)
+			(at 168.91 109.855 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
 			)
 		)
-		(property "Tolerance" " ±1%"
-			(at 171.45 107.95 90)
+		(property "Tolerance" "±1%"
+			(at 170.18 107.95 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Package" "0402"
@@ -7097,7 +7147,6 @@
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
 			)
 		)
 		(property "MPN" "GCM1555C1H102FA16"
@@ -7215,7 +7264,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 113.03 90.17 0)
+		(at 113.03 89.535 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7223,7 +7272,7 @@
 		(dnp no)
 		(uuid "ae151877-48b8-4599-8223-91079035ae71")
 		(property "Reference" "TP105"
-			(at 113.03 93.726 90)
+			(at 113.03 88.9 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7232,7 +7281,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 114.3 91.4399 0)
+			(at 114.3 90.8049 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7242,7 +7291,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 118.11 90.17 0)
+			(at 118.11 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7252,7 +7301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 90.17 0)
+			(at 118.11 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7262,7 +7311,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 113.03 90.17 0)
+			(at 113.03 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7272,7 +7321,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 113.03 90.17 0)
+			(at 113.03 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7281,7 +7330,7 @@
 			)
 		)
 		(property "Voltge Rating" ""
-			(at 113.03 90.17 0)
+			(at 113.03 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7781,7 +7830,7 @@
 		(dnp no)
 		(uuid "f9e78387-c969-41e5-ad20-4f6f63f9e391")
 		(property "Reference" "C103"
-			(at 119.38 102.87 90)
+			(at 121.92 102.87 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7790,12 +7839,12 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 125.73 102.87 90)
+			(at 124.46 102.87 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -7829,7 +7878,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 119.38 105.41 90)
+			(at 121.92 105.41 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7838,21 +7887,20 @@
 			)
 		)
 		(property "Dielectric" "C0G (NP0)"
-			(at 123.19 107.95 90)
+			(at 123.19 107.315 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
 			)
 		)
 		(property "Tolerance" " ±1%"
-			(at 125.73 105.41 90)
+			(at 123.825 105.41 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Package" "0402"
@@ -7861,7 +7909,6 @@
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
 			)
 		)
 		(property "MPN" "GCM1555C1H102FA16"
@@ -7979,7 +8026,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 100.33 90.17 0)
+		(at 100.33 89.535 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7987,7 +8034,7 @@
 		(dnp no)
 		(uuid "fb8ebd0d-9d46-48c7-893b-fbff6a5739f0")
 		(property "Reference" "TP106"
-			(at 100.33 93.726 90)
+			(at 100.33 88.9 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7996,7 +8043,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 101.6 91.4399 0)
+			(at 101.6 90.8049 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8006,7 +8053,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 105.41 90.17 0)
+			(at 105.41 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8016,7 +8063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 90.17 0)
+			(at 105.41 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8026,7 +8073,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 100.33 90.17 0)
+			(at 100.33 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8036,7 +8083,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 100.33 90.17 0)
+			(at 100.33 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8045,7 +8092,7 @@
 			)
 		)
 		(property "Voltge Rating" ""
-			(at 100.33 90.17 0)
+			(at 100.33 89.535 0)
 			(effects
 				(font
 					(size 0.762 0.762)
