@@ -317,7 +317,7 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -432,6 +432,12 @@
           "label": "Dielectric",
           "name": "Dielectric",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
         }
       ],
       "filter_string": "",
