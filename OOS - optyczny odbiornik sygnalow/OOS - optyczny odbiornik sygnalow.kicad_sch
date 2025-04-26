@@ -5,6 +5,171 @@
 	(uuid "635760df-3241-4f53-aa67-bcf04a8ecd85")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
@@ -1337,6 +1502,12 @@
 		(uuid "34571e55-373e-4cf2-8eeb-03f35c483cb8")
 	)
 	(junction
+		(at 31.75 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37afd65e-fa6b-4504-b121-07f16a4c157b")
+	)
+	(junction
 		(at 91.44 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1391,6 +1562,12 @@
 		(uuid "910cbcd8-3ac6-42ae-bd03-3656326e47ce")
 	)
 	(junction
+		(at 31.75 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ef04d68-947c-4345-9e57-d00066a75e7b")
+	)
+	(junction
 		(at 111.76 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1432,6 +1609,12 @@
 		(color 0 0 0 0)
 		(uuid "e9a34a21-ee32-4b57-86af-7cfaa77e6cce")
 	)
+	(junction
+		(at 31.75 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe697d86-cb58-4d3b-9210-4f60efacfee3")
+	)
 	(polyline
 		(pts
 			(xy 92.71 67.31) (xy 93.98 67.31)
@@ -1454,6 +1637,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 86.36) (xy 31.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b06cec-d10b-4025-a822-4055eb6fa89a")
+	)
+	(wire
+		(pts
 			(xy 96.52 90.17) (xy 96.52 81.28)
 		)
 		(stroke
@@ -1471,6 +1664,16 @@
 			(type default)
 		)
 		(uuid "08272325-a691-4aed-abe6-eb39185b4f5d")
+	)
+	(wire
+		(pts
+			(xy 30.48 91.44) (xy 31.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a31976-9df2-4f90-b2c5-4a0ddcbf6771")
 	)
 	(wire
 		(pts
@@ -1511,6 +1714,16 @@
 			(type default)
 		)
 		(uuid "1af0aab1-a627-48c3-aa75-c204b18242cc")
+	)
+	(wire
+		(pts
+			(xy 31.75 91.44) (xy 31.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf54a79-e50a-49c6-a501-88f2a7a0ea10")
 	)
 	(polyline
 		(pts
@@ -1554,6 +1767,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 83.82) (xy 31.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa27205-41f3-421b-8276-ae51a1758e5d")
+	)
+	(wire
+		(pts
 			(xy 106.68 127) (xy 111.76 127)
 		)
 		(stroke
@@ -1591,6 +1814,16 @@
 			(type default)
 		)
 		(uuid "3c2ceb2f-faea-41b9-9690-537386ce1cb5")
+	)
+	(wire
+		(pts
+			(xy 30.48 93.98) (xy 31.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3def094d-1f7b-4f34-84fe-96f5d06aa7e2")
 	)
 	(polyline
 		(pts
@@ -1641,6 +1874,26 @@
 			(type default)
 		)
 		(uuid "50414ce0-d3e7-44f6-a93d-330799121b2d")
+	)
+	(wire
+		(pts
+			(xy 30.48 86.36) (xy 31.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f5f7a7-ea50-4578-b41a-017cb8eb66ff")
+	)
+	(wire
+		(pts
+			(xy 31.75 99.06) (xy 31.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e0255b-c110-4c29-b748-4bf82c43c41c")
 	)
 	(polyline
 		(pts
@@ -1771,6 +2024,16 @@
 			(type default)
 		)
 		(uuid "6baa356e-7d6c-4751-af57-e66f8de09fe2")
+	)
+	(wire
+		(pts
+			(xy 31.75 83.82) (xy 31.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702a6fa6-5f57-492b-b0f0-e3c43c9a9534")
 	)
 	(wire
 		(pts
@@ -2014,6 +2277,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 93.98) (xy 31.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb173d6-8e1c-47c8-9d51-053851891082")
+	)
+	(wire
+		(pts
 			(xy 116.84 90.17) (xy 116.84 81.28)
 		)
 		(stroke
@@ -2154,6 +2427,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 101.6) (xy 31.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bb4cbd-08c9-4671-b855-90ad2c5d0cfe")
+	)
+	(wire
+		(pts
 			(xy 114.3 104.14) (xy 116.84 104.14)
 		)
 		(stroke
@@ -2161,6 +2444,16 @@
 			(type default)
 		)
 		(uuid "ed9350bb-51f9-4537-9821-5407ce7a5063")
+	)
+	(wire
+		(pts
+			(xy 31.75 101.6) (xy 31.75 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef80ce2e-9e4d-45b2-ae84-6739ed53b103")
 	)
 	(polyline
 		(pts
@@ -2171,6 +2464,16 @@
 			(type default)
 		)
 		(uuid "efb208a1-87d5-4268-9103-b67adc8339a6")
+	)
+	(wire
+		(pts
+			(xy 30.48 99.06) (xy 31.75 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdb4d19-1efa-4343-95ee-ee184339ef7e")
 	)
 	(wire
 		(pts
@@ -2223,6 +2526,72 @@
 			(justify left bottom)
 		)
 		(uuid "a5006e1b-a831-4e06-a4ba-dd0ac99d0bd4")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 31.75 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07189e89-efbd-45f7-b3bd-2b959da33ab3")
+		(property "Reference" "#PWR0111"
+			(at 31.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_photo"
+			(at 31.75 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c8d2745-ee8f-405c-8696-63db905cfb65")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3447,6 +3816,72 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
 					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44a7c452-b9e5-41a1-b2a4-0cf64b9faccd")
+		(property "Reference" "#PWR0113"
+			(at 31.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0V"
+			(at 33.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e68f00ce-1675-4100-ae7e-5730e3198320")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -4913,6 +5348,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 25.4 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9222e2c9-3ef9-4de6-92b6-4e11299a43cc")
+		(property "Reference" "J104"
+			(at 26.035 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 24.13 99.0601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7798a30-e801-4513-8cad-b1601aa5dc1c")
+		)
+		(pin "1"
+			(uuid "a061b0dc-1266-411d-8457-66d9ff78f891")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
+					(reference "J104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 185.42 106.68 0)
 		(unit 1)
@@ -5189,6 +5694,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 31.75 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad0b5895-9b17-49b2-b4d4-6be3f5cc7409")
+		(property "Reference" "#PWR0112"
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 31.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 31.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1f9e165-4bfe-4a1a-9e74-c895ca2ae3e8")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 113.03 90.17 0)
 		(unit 1)
@@ -5265,6 +5836,146 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
 					(reference "TP105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 25.4 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "affd95ad-7fff-486b-979a-256d3bd350fe")
+		(property "Reference" "J103"
+			(at 26.035 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 24.13 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 25.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 25.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e19c69c-9076-4347-bfcc-f06ff0dec2ad")
+		)
+		(pin "1"
+			(uuid "106e16bf-d603-4e98-88b0-d5392891ac55")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
+					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 25.4 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb6d3f8c-b0e2-4a8d-9407-064cdc2527ab")
+		(property "Reference" "J102"
+			(at 26.035 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 24.13 83.8201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 25.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 25.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f557d73-1c3c-4229-9128-112b4c16bae3")
+		)
+		(pin "1"
+			(uuid "4d49332a-5f97-4f7c-83eb-a3264d08ec95")
+		)
+		(instances
+			(project ""
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
+					(reference "J102")
 					(unit 1)
 				)
 			)
