@@ -2076,16 +2076,6 @@
 		)
 		(uuid "cf98d686-d501-4e7d-89c3-c40b9afd3bc2")
 	)
-	(text "1nF  @ 159kHz"
-		(exclude_from_sim no)
-		(at 204.47 108.585 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e70db71c-d62b-4195-80ba-5ba96a473c3f")
-	)
 	(text "3V33"
 		(exclude_from_sim no)
 		(at 158.75 106.045 0)
@@ -4065,7 +4055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0345e6cf-72db-4a89-a48a-700ebbc67805")
-		(property "Reference" "H102"
+		(property "Reference" "H2"
 			(at 123.19 170.8149 0)
 			(effects
 				(font
@@ -4113,7 +4103,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "H102")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4128,7 +4118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07189e89-efbd-45f7-b3bd-2b959da33ab3")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR03"
 			(at 38.1 102.235 0)
 			(effects
 				(font
@@ -4183,7 +4173,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0111")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4198,7 +4188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "075b2d4d-be3c-4f8c-bb84-be3100ec5b3d")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR01"
 			(at 38.1 59.055 0)
 			(effects
 				(font
@@ -4253,7 +4243,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0116")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4268,7 +4258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d447843-94cb-47a0-bea4-edbc5d11369d")
-		(property "Reference" "C102"
+		(property "Reference" "C7"
 			(at 147.32 80.645 0)
 			(effects
 				(font
@@ -4379,7 +4369,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C102")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4394,7 +4384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fcc26db-ca9d-46ba-b705-f2d22333191d")
-		(property "Reference" "R109"
+		(property "Reference" "R4"
 			(at 156.21 119.38 0)
 			(effects
 				(font
@@ -4507,7 +4497,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R109")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4522,7 +4512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "129be21f-15aa-4c18-bc60-133c73897998")
-		(property "Reference" "C101"
+		(property "Reference" "C10"
 			(at 186.69 75.565 90)
 			(effects
 				(font
@@ -4642,7 +4632,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C101")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4658,7 +4648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12fbfb60-f2bb-464b-8fab-d46bbf71c857")
-		(property "Reference" "J105"
+		(property "Reference" "J4"
 			(at 142.875 111.125 0)
 			(effects
 				(font
@@ -4716,7 +4706,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "J105")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4731,7 +4721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13ed1f56-4135-41d3-aacc-13c9b46f3432")
-		(property "Reference" "C110"
+		(property "Reference" "C8"
 			(at 156.845 80.645 0)
 			(effects
 				(font
@@ -4841,7 +4831,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C110")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4856,7 +4846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1473387b-a89c-42fd-bf62-9ccfaad135f7")
-		(property "Reference" "C105"
+		(property "Reference" "C1"
 			(at 40.64 59.055 0)
 			(effects
 				(font
@@ -4966,7 +4956,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C105")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4981,7 +4971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16e16476-4fd0-4d46-ba61-2339d4b4cc1f")
-		(property "Reference" "R108"
+		(property "Reference" "R11"
 			(at 260.35 106.68 0)
 			(effects
 				(font
@@ -5075,7 +5065,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R108")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5090,7 +5080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "171f502d-ffe8-4b2a-a8f5-eab7a14c27ca")
-		(property "Reference" "R104"
+		(property "Reference" "R6"
 			(at 166.37 109.22 0)
 			(effects
 				(font
@@ -5203,7 +5193,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R104")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5218,7 +5208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1918416f-2d11-41a2-bdfc-805dcd0db8a4")
-		(property "Reference" "TP102"
+		(property "Reference" "TP10"
 			(at 245.11 86.36 0)
 			(effects
 				(font
@@ -5273,7 +5263,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP102")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5288,7 +5278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21481cda-b1ac-4cdb-be68-5c9ecb17fd1a")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR07"
 			(at 76.2 125.095 0)
 			(effects
 				(font
@@ -5343,7 +5333,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0120")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5358,7 +5348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "241b5739-47af-41e0-8d46-1a5d619e2b81")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR013"
 			(at 154.94 111.125 0)
 			(effects
 				(font
@@ -5413,7 +5403,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0114")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5428,7 +5418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27290803-e71c-4e5d-a05d-bda2ff9387d9")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR010"
 			(at 125.73 78.105 0)
 			(effects
 				(font
@@ -5483,7 +5473,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0102")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5499,7 +5489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2987cc99-5102-4974-b18d-a85be02e8b20")
-		(property "Reference" "H101"
+		(property "Reference" "H1"
 			(at 123.19 164.4649 0)
 			(effects
 				(font
@@ -5547,7 +5537,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "H101")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5562,7 +5552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2be20974-a3a1-4b9b-b045-7ccc24f54d08")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR019"
 			(at 231.14 97.155 0)
 			(effects
 				(font
@@ -5617,7 +5607,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0106")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5632,7 +5622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3779868a-956f-491a-a0f8-71499f289527")
-		(property "Reference" "R106"
+		(property "Reference" "R9"
 			(at 217.17 97.79 90)
 			(effects
 				(font
@@ -5771,7 +5761,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R106")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5786,7 +5776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3915dae2-08c8-449f-9af9-deab9acc1f6f")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR020"
 			(at 231.14 117.475 0)
 			(effects
 				(font
@@ -5841,7 +5831,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0107")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5856,7 +5846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39981dfb-f15f-4b8d-93b8-f4c5db9c2ab3")
-		(property "Reference" "R111"
+		(property "Reference" "R2"
 			(at 90.17 102.87 0)
 			(effects
 				(font
@@ -5958,7 +5948,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R111")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5973,7 +5963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a242c3a-4ccf-494c-b486-b100d1d81e19")
-		(property "Reference" "U102"
+		(property "Reference" "U2"
 			(at 231.14 96.52 0)
 			(effects
 				(font
@@ -6051,7 +6041,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "U102")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6067,7 +6057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c6c5a86-4445-4fe3-ba64-d98a17333b3c")
-		(property "Reference" "#FLG0103"
+		(property "Reference" "#FLG02"
 			(at 46.99 69.85 0)
 			(effects
 				(font
@@ -6118,7 +6108,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#FLG0103")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6133,7 +6123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4000a3c7-a220-4091-b6be-3026c349ce6b")
-		(property "Reference" "R102"
+		(property "Reference" "R3"
 			(at 135.89 74.93 90)
 			(effects
 				(font
@@ -6237,7 +6227,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R102")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6252,7 +6242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43090cdd-5a33-4101-a2da-2fd5df089c74")
-		(property "Reference" "JP101"
+		(property "Reference" "JP1"
 			(at 156.21 111.125 90)
 			(effects
 				(font
@@ -6310,7 +6300,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "JP101")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6326,7 +6316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43255b88-805d-449b-bcb6-4969cce92d88")
-		(property "Reference" "H103"
+		(property "Reference" "H3"
 			(at 123.19 177.1649 0)
 			(effects
 				(font
@@ -6374,7 +6364,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "H103")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6389,7 +6379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44a7c452-b9e5-41a1-b2a4-0cf64b9faccd")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR05"
 			(at 38.1 125.095 0)
 			(effects
 				(font
@@ -6444,7 +6434,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0113")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6459,7 +6449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45bcec27-f3cb-4c04-a1b8-e8d8ff142b78")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR014"
 			(at 163.83 95.25 0)
 			(effects
 				(font
@@ -6514,7 +6504,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0118")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6529,7 +6519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cfdb189-f810-4476-9385-ecce7c80a34a")
-		(property "Reference" "D101"
+		(property "Reference" "D3"
 			(at 171.45 71.12 0)
 			(effects
 				(font
@@ -6592,7 +6582,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "D101")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6607,7 +6597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f6393bc-b4c2-45b4-b2d9-c708871551aa")
-		(property "Reference" "D103"
+		(property "Reference" "D2"
 			(at 90.17 112.395 90)
 			(effects
 				(font
@@ -6679,7 +6669,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "D103")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6694,7 +6684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "514ec81b-001a-4491-9362-cb7e6b78bff4")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR012"
 			(at 154.305 95.25 0)
 			(effects
 				(font
@@ -6749,7 +6739,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0117")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6764,7 +6754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "523e4683-5490-42ff-b6d0-762c50b3a4c4")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR015"
 			(at 165.1 99.695 0)
 			(effects
 				(font
@@ -6819,7 +6809,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0103")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6834,7 +6824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "545bccc1-c127-42dd-b72f-aac04d4e9517")
-		(property "Reference" "TP109"
+		(property "Reference" "TP5"
 			(at 172.72 133.985 0)
 			(effects
 				(font
@@ -6889,7 +6879,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP109")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -6904,7 +6894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55dba492-e80f-49c2-adf3-4f8053023dbb")
-		(property "Reference" "TP101"
+		(property "Reference" "TP11"
 			(at 260.35 101.6 90)
 			(effects
 				(font
@@ -6959,7 +6949,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP101")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -6974,7 +6964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "563f240a-57ea-4dee-b581-c1e0bc60ac5d")
-		(property "Reference" "TP108"
+		(property "Reference" "TP4"
 			(at 172.72 114.935 0)
 			(effects
 				(font
@@ -7029,7 +7019,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP108")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7044,7 +7034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5de641e3-eb8d-4a28-8c96-b9ae044957a2")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR018"
 			(at 185.42 114.935 0)
 			(effects
 				(font
@@ -7099,7 +7089,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0101")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7114,7 +7104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e7f5dd8-404a-444d-b6bd-17994db11db4")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR021"
 			(at 259.08 120.015 0)
 			(effects
 				(font
@@ -7169,7 +7159,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0109")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7185,7 +7175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e8d7a6e-e021-4b87-b391-e761548e7ed3")
-		(property "Reference" "FID102"
+		(property "Reference" "FID2"
 			(at 149.225 170.8149 0)
 			(effects
 				(font
@@ -7233,7 +7223,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "FID102")
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f6a38ce-b82b-4bc2-bc29-945cf426a1e7")
-		(property "Reference" "R110"
+		(property "Reference" "R1"
 			(at 77.47 102.87 0)
 			(effects
 				(font
@@ -7351,7 +7341,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R110")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7366,7 +7356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "679f02b2-98a7-4f09-b476-49e48347fa94")
-		(property "Reference" "TP111"
+		(property "Reference" "TP1"
 			(at 128.27 76.2 90)
 			(effects
 				(font
@@ -7421,7 +7411,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP111")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7437,7 +7427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6908d933-4dab-4d39-81e8-4d15f410385a")
-		(property "Reference" "FID101"
+		(property "Reference" "FID1"
 			(at 149.225 164.4649 0)
 			(effects
 				(font
@@ -7485,7 +7475,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "FID101")
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -7500,7 +7490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6babb687-e188-491d-a7fd-908beafc9a4b")
-		(property "Reference" "TP103"
+		(property "Reference" "TP9"
 			(at 223.52 86.36 0)
 			(effects
 				(font
@@ -7555,7 +7545,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP103")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7571,7 +7561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bbabf75-d27c-4ce0-8822-699fb2f3c312")
-		(property "Reference" "FID103"
+		(property "Reference" "FID3"
 			(at 149.225 177.1649 0)
 			(effects
 				(font
@@ -7619,7 +7609,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "FID103")
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -7634,7 +7624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c60f902-bf1c-4f73-81d2-bf5405245fe6")
-		(property "Reference" "TP110"
+		(property "Reference" "TP2"
 			(at 142.24 75.565 0)
 			(effects
 				(font
@@ -7689,7 +7679,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP110")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7704,7 +7694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cf05f24-687a-44e6-ae04-efeb1aa8e36a")
-		(property "Reference" "TP104"
+		(property "Reference" "TP8"
 			(at 212.725 99.06 90)
 			(effects
 				(font
@@ -7759,7 +7749,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP104")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -7775,7 +7765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "769b90f9-8ab0-49f6-9e52-fa5591094ddc")
-		(property "Reference" "H104"
+		(property "Reference" "H4"
 			(at 123.19 183.5149 0)
 			(effects
 				(font
@@ -7823,7 +7813,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "H104")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7838,7 +7828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78a9eaa5-08d9-4a39-99ca-6bf3e49e70c2")
-		(property "Reference" "#FLG0102"
+		(property "Reference" "#FLG03"
 			(at 130.81 73.66 0)
 			(effects
 				(font
@@ -7889,7 +7879,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#FLG0102")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7904,7 +7894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bff2ccc-2dc9-44d7-a4f2-b5786992415a")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR08"
 			(at 88.9 102.87 0)
 			(effects
 				(font
@@ -7959,7 +7949,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0121")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7974,7 +7964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d4327a1-81f2-483b-bff1-852c219f904a")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR016"
 			(at 165.1 132.715 0)
 			(effects
 				(font
@@ -8029,7 +8019,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0108")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8044,7 +8034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d87242f-f561-496e-a634-0bfc2b5447eb")
-		(property "Reference" "R103"
+		(property "Reference" "R5"
 			(at 166.37 99.06 0)
 			(effects
 				(font
@@ -8157,7 +8147,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R103")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8172,7 +8162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f089513-afd3-43e5-a8b9-78f5772f09bb")
-		(property "Reference" "R105"
+		(property "Reference" "R7"
 			(at 166.37 119.38 0)
 			(effects
 				(font
@@ -8285,7 +8275,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R105")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8300,7 +8290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8022cb01-7f87-4f2c-a501-e8a88aae484d")
-		(property "Reference" "U101"
+		(property "Reference" "U1"
 			(at 185.42 93.98 0)
 			(effects
 				(font
@@ -8378,7 +8368,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "U101")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8393,7 +8383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8261cd09-f237-42ad-9a39-1aad08bc01a5")
-		(property "Reference" "C112"
+		(property "Reference" "C6"
 			(at 104.14 59.055 0)
 			(effects
 				(font
@@ -8500,7 +8490,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C112")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8515,7 +8505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "830ec9ed-69fa-429f-a86a-1dddc0145c50")
-		(property "Reference" "C108"
+		(property "Reference" "C4"
 			(at 78.74 59.055 0)
 			(effects
 				(font
@@ -8625,7 +8615,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C108")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8640,7 +8630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "858dce91-6ee1-42bc-8632-13f13b37b680")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR011"
 			(at 144.78 94.615 0)
 			(effects
 				(font
@@ -8695,7 +8685,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0105")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8710,7 +8700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ab3df5f-b0bd-4692-a458-e53174e602c0")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR09"
 			(at 88.9 125.095 0)
 			(effects
 				(font
@@ -8765,7 +8755,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0122")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8780,7 +8770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91aad04e-d2e3-4dc4-b994-bb70c368a564")
-		(property "Reference" "R101"
+		(property "Reference" "R8"
 			(at 187.96 83.185 90)
 			(effects
 				(font
@@ -8883,7 +8873,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R101")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8899,7 +8889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9222e2c9-3ef9-4de6-92b6-4e11299a43cc")
-		(property "Reference" "J104"
+		(property "Reference" "J3"
 			(at 32.385 112.395 0)
 			(effects
 				(font
@@ -8957,7 +8947,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "J104")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8972,7 +8962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95ff1e8b-f46e-4fb6-9cde-56e96e871161")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR02"
 			(at 38.1 74.295 0)
 			(effects
 				(font
@@ -9027,7 +9017,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0115")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9043,7 +9033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98f0e961-3cc1-47a9-a70f-46456d45886e")
-		(property "Reference" "J101"
+		(property "Reference" "J5"
 			(at 270.51 101.8932 0)
 			(effects
 				(font
@@ -9109,7 +9099,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "J101")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9124,7 +9114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cc1df86-3e15-45f7-99b0-5e5d3055ce35")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR017"
 			(at 185.42 94.615 0)
 			(effects
 				(font
@@ -9179,7 +9169,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0104")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9194,7 +9184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9f0b0fa-1e39-4671-8212-955703ad1995")
-		(property "Reference" "D102"
+		(property "Reference" "D1"
 			(at 77.47 112.395 90)
 			(effects
 				(font
@@ -9266,7 +9256,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "D102")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9281,7 +9271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad0b5895-9b17-49b2-b4d4-6be3f5cc7409")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR04"
 			(at 38.1 109.855 0)
 			(effects
 				(font
@@ -9336,7 +9326,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0112")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9351,7 +9341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae151877-48b8-4599-8223-91079035ae71")
-		(property "Reference" "TP105"
+		(property "Reference" "TP7"
 			(at 195.58 83.82 0)
 			(effects
 				(font
@@ -9406,7 +9396,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP105")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9422,7 +9412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "affd95ad-7fff-486b-979a-256d3bd350fe")
-		(property "Reference" "J103"
+		(property "Reference" "J2"
 			(at 32.385 104.775 0)
 			(effects
 				(font
@@ -9480,7 +9470,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "J103")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9495,7 +9485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1c5b2c6-3dc8-4fdc-acc8-1443af6bca8d")
-		(property "Reference" "C103"
+		(property "Reference" "C11"
 			(at 203.2 98.425 90)
 			(effects
 				(font
@@ -9613,7 +9603,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C103")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9628,7 +9618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b28a15f4-48a7-4496-9885-7a705a44a308")
-		(property "Reference" "C111"
+		(property "Reference" "C5"
 			(at 91.44 59.055 0)
 			(effects
 				(font
@@ -9735,7 +9725,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C111")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9750,7 +9740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4cb96af-ee21-4993-ba14-4d753d8b5c58")
-		(property "Reference" "C104"
+		(property "Reference" "C12"
 			(at 248.92 100.965 90)
 			(effects
 				(font
@@ -9870,7 +9860,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C104")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9886,7 +9876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb6d3f8c-b0e2-4a8d-9407-064cdc2527ab")
-		(property "Reference" "J102"
+		(property "Reference" "J1"
 			(at 32.385 97.155 0)
 			(effects
 				(font
@@ -9944,7 +9934,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "J102")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9959,7 +9949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce72e4bc-b5bb-4370-88dc-a48533e3cf68")
-		(property "Reference" "R107"
+		(property "Reference" "R10"
 			(at 233.68 85.725 90)
 			(effects
 				(font
@@ -10071,7 +10061,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "R107")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10086,7 +10076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d29eff88-2470-4678-b6cc-6d2a1caea864")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR06"
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -10141,7 +10131,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0119")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10156,7 +10146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5a78b74-6b90-4b18-b4f5-1983c9bc9af8")
-		(property "Reference" "TP107"
+		(property "Reference" "TP3"
 			(at 172.72 104.775 0)
 			(effects
 				(font
@@ -10211,7 +10201,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP107")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10226,7 +10216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9dbe909-6c65-4c20-bbc7-8fd382aa86c7")
-		(property "Reference" "C107"
+		(property "Reference" "C3"
 			(at 66.04 59.055 0)
 			(effects
 				(font
@@ -10336,7 +10326,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C107")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10351,7 +10341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f161cde4-a6d8-4434-b804-0769acf72d70")
-		(property "Reference" "C106"
+		(property "Reference" "C2"
 			(at 53.34 59.055 0)
 			(effects
 				(font
@@ -10461,7 +10451,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C106")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10476,7 +10466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f24be063-8943-4c40-8b2e-eccc0823d5b4")
-		(property "Reference" "C109"
+		(property "Reference" "C9"
 			(at 166.37 80.645 0)
 			(effects
 				(font
@@ -10583,7 +10573,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "C109")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10598,7 +10588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa212c97-d424-4614-ac3d-c424bcfbcd99")
-		(property "Reference" "#FLG0101"
+		(property "Reference" "#FLG01"
 			(at 46.99 53.34 0)
 			(effects
 				(font
@@ -10649,7 +10639,7 @@
 		(instances
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#FLG0101")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -10664,7 +10654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb7f3fd6-fc97-4d77-8834-e98f7eed2b2a")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR022"
 			(at 266.7 114.935 0)
 			(effects
 				(font
@@ -10719,7 +10709,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "#PWR0110")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10734,7 +10724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb8ebd0d-9d46-48c7-893b-fbff6a5739f0")
-		(property "Reference" "TP106"
+		(property "Reference" "TP6"
 			(at 180.975 83.82 0)
 			(effects
 				(font
@@ -10789,7 +10779,7 @@
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85"
-					(reference "TP106")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
