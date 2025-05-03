@@ -1,0 +1,18 @@
+Adding power supply from USBC:
+- Create +20V with using dcdc boost converter
+- Take +5V for rest of the ICs
+- Have indication diode
+Adding Power spply for Li-ion battery:
+- Power supply from one li-ion battery (two to have 5V)
+- Charged from USB C, using diodes for process and fully charged li-ion battery
+- Adding switch (mechanicall or electrical) to power from USB C or from Li-ion battery
+- Adding power switch for whole product
+Adding adjustable gain:
+- Create 6 steeps for adjustable gain
+- Use rotary switch
+Adding MCU (RP2040) add in version 2.0.0:
+- Add MCU for control and sending data from ADC to through the uart to the computer
+Adding filters (10MHz, FBW and 1MHz)
+Adding AC and DC coupling
+Adding LCD for current measuremnt
+Adding range switch
