@@ -816,7 +816,7 @@
     "Project Complete": "100%",
     "Project Description": "Odbiornik który ma za zadanie obdierać sygnały optyczne przy pomocy diody Si PIN",
     "Project Reason": "Education/Testing",
-    "Project Revision": "0.0.0",
+    "Project Revision": "0.0.1",
     "Project Title": "OOS - optyczny odbiornik sygnalow"
   }
 }
