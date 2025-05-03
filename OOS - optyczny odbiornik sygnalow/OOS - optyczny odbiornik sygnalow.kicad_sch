@@ -1948,10 +1948,10 @@
 	)
 	(text "1V66"
 		(exclude_from_sim no)
-		(at 159.004 116.205 0)
+		(at 161.544 116.205 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.635 0.635)
 			)
 			(justify left)
 		)
@@ -2078,10 +2078,10 @@
 	)
 	(text "3V33"
 		(exclude_from_sim no)
-		(at 158.75 106.045 0)
+		(at 161.29 106.045 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.635 0.635)
 			)
 			(justify left)
 		)
@@ -4049,7 +4049,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 120.65 172.085 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -5483,7 +5483,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 120.65 165.735 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -6237,7 +6237,7 @@
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 154.94 111.125 90)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -6248,7 +6248,7 @@
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
@@ -6310,7 +6310,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 120.65 178.435 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7169,7 +7169,7 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 146.05 172.085 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7421,7 +7421,7 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 146.05 165.735 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7555,7 +7555,7 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 146.05 178.435 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7759,7 +7759,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 120.65 184.785 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10087,7 +10087,7 @@
 			)
 		)
 		(property "Value" "+V_photo"
-			(at 76.2 96.52 90)
+			(at 76.2 96.52 0)
 			(effects
 				(font
 					(size 0.762 0.762)
