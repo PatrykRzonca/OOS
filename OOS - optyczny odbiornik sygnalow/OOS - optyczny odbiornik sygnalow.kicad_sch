@@ -4441,7 +4441,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "1 %"
+		(property "Tolerance" "1%"
 			(at 156.21 121.92 0)
 			(effects
 				(font
@@ -4488,6 +4488,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0402"
+			(at 154.94 121.285 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85d0d6ff-e8e2-4331-94c7-1596a7bd520c")
 		)
@@ -4513,12 +4522,12 @@
 		(dnp no)
 		(uuid "129be21f-15aa-4c18-bc60-133c73897998")
 		(property "Reference" "C10"
-			(at 186.69 75.565 90)
+			(at 184.15 75.565 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1p"
@@ -4561,12 +4570,12 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 186.69 78.105 90)
+			(at 184.15 78.105 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Package" "0402"
@@ -5056,6 +5065,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0402"
+			(at 259.08 108.585 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2ff4f96-4029-43e0-ada2-8467704492c9")
 		)
@@ -5137,7 +5155,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "1 %"
+		(property "Tolerance" "1%"
 			(at 166.37 111.76 0)
 			(effects
 				(font
@@ -5176,6 +5194,15 @@
 			)
 		)
 		(property "Supplier" "TME"
+			(at 165.1 111.125 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 165.1 111.125 0)
 			(effects
 				(font
@@ -5623,12 +5650,12 @@
 		(dnp no)
 		(uuid "3779868a-956f-491a-a0f8-71499f289527")
 		(property "Reference" "R9"
-			(at 217.17 97.79 90)
+			(at 214.63 97.79 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100"
@@ -5939,6 +5966,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603"
+			(at 88.9 104.775 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ec460c8-59b5-4645-bc8f-0fa23ffbcfb6")
 		)
@@ -6018,6 +6054,14 @@
 					(size 0.762 0.762)
 				)
 				(hide yes)
+			)
+		)
+		(property "Package" "SOT23-6"
+			(at 236.22 99.06 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
 			)
 		)
 		(pin "3"
@@ -6124,12 +6168,12 @@
 		(dnp no)
 		(uuid "4000a3c7-a220-4091-b6be-3026c349ce6b")
 		(property "Reference" "R3"
-			(at 135.89 74.93 90)
+			(at 133.35 74.93 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10"
@@ -6171,13 +6215,13 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" "100mW"
-			(at 135.89 78.74 90)
+		(property "Power Rating" "0.1W"
+			(at 133.35 78.74 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -6211,6 +6255,15 @@
 		)
 		(property "Supplier" "TME"
 			(at 135.89 76.835 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 135.89 76.835 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6571,6 +6624,16 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TO-18-2"
+			(at 175.514 79.248 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6658,6 +6721,15 @@
 					(size 0.762 0.762)
 				)
 				(justify right)
+			)
+		)
+		(property "Package" "0603"
+			(at 88.9 113.665 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7328,6 +7400,15 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 76.2 104.775 0)
+			(effects
+				(font
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -8091,7 +8172,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "1 %"
+		(property "Tolerance" "1%"
 			(at 166.37 101.6 0)
 			(effects
 				(font
@@ -8130,6 +8211,15 @@
 			)
 		)
 		(property "Supplier" "TME"
+			(at 165.1 100.965 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 165.1 100.965 0)
 			(effects
 				(font
@@ -8219,7 +8309,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "1 %"
+		(property "Tolerance" "1%"
 			(at 166.37 121.92 0)
 			(effects
 				(font
@@ -8258,6 +8348,15 @@
 			)
 		)
 		(property "Supplier" "TME"
+			(at 165.1 121.285 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 165.1 121.285 0)
 			(effects
 				(font
@@ -8339,6 +8438,15 @@
 			)
 		)
 		(property "Supplier" "TME"
+			(at 180.34 92.075 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT23-6"
 			(at 180.34 92.075 0)
 			(effects
 				(font
@@ -8771,12 +8879,12 @@
 		(dnp no)
 		(uuid "91aad04e-d2e3-4dc4-b994-bb70c368a564")
 		(property "Reference" "R8"
-			(at 187.96 83.185 90)
+			(at 185.42 83.185 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1k"
@@ -8857,6 +8965,15 @@
 		)
 		(property "MPN after review" "RT0402BRD071KL"
 			(at 187.96 85.09 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 187.96 85.09 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9247,6 +9364,15 @@
 				(justify right)
 			)
 		)
+		(property "Package" "0603"
+			(at 76.2 113.665 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "641b9112-07d7-40d5-8abf-a977659109ca")
 		)
@@ -9486,12 +9612,12 @@
 		(dnp no)
 		(uuid "b1c5b2c6-3dc8-4fdc-acc8-1443af6bca8d")
 		(property "Reference" "C11"
-			(at 203.2 98.425 90)
+			(at 200.66 98.425 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100p"
@@ -9534,12 +9660,12 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 203.2 100.965 90)
+			(at 200.66 100.965 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Dielectric" "C0G (NP0)"
@@ -9741,12 +9867,12 @@
 		(dnp no)
 		(uuid "b4cb96af-ee21-4993-ba14-4d753d8b5c58")
 		(property "Reference" "C12"
-			(at 248.92 100.965 90)
+			(at 246.38 100.965 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1p"
@@ -9789,12 +9915,12 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 248.92 103.505 90)
+			(at 246.38 103.505 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Dielectric" "C0G (NP0)"
@@ -9950,12 +10076,12 @@
 		(dnp no)
 		(uuid "ce72e4bc-b5bb-4370-88dc-a48533e3cf68")
 		(property "Reference" "R10"
-			(at 233.68 85.725 90)
+			(at 231.14 85.725 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1k"
@@ -10045,6 +10171,15 @@
 		)
 		(property "MPN after review" "RT0402BRD071KL"
 			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 233.68 87.63 90)
 			(effects
 				(font
 					(size 0.762 0.762)
