@@ -985,21 +985,37 @@
     [
       "635760df-3241-4f53-aa67-bcf04a8ecd85",
       "Root"
+    ],
+    [
+      "e837d0e3-5076-48be-97e8-87e0ec2c76e2",
+      "Sekcja_Analogowa"
+    ],
+    [
+      "af862a95-6c6f-4b8d-b6e2-8f113ad068f6",
+      "Sekcja_USB"
+    ],
+    [
+      "71d6de22-4cb5-451b-bf66-462da1c5eb54",
+      "Sekcja_DCDC_Boost"
+    ],
+    [
+      "05c61092-e9ac-41ed-9df7-53b962b4049b",
+      "Sekcja_Li-ion_Ladowanie"
     ]
   ],
   "text_variables": {
     "Company": "Quasi Peak",
-    "Date End": "29-04-2025",
+    "Date End": "??-??-????",
     "Date Start Layout": "30-04-2025",
     "Date Start Schematic": "26-04-2025",
-    "Document Status": "Wypuszczony",
+    "Document Status": "Szkic",
     "Email": "patryk58111@gmail.com",
     "Engineer": "Patryk Rzońca",
     "Phone Number": "+48 731 375 090",
-    "Project Complete": "100%",
+    "Project Complete": "25%",
     "Project Description": "Odbiornik który ma za zadanie obdierać sygnały optyczne przy pomocy diody Si PIN",
     "Project Reason": "Edukacyjny/Testowanie",
-    "Project Revision": "0.0.3",
+    "Project Revision": "1.0.0",
     "Project Title": "OOS - optyczny odbiornik sygnalow",
     "Variant": "Master"
   }

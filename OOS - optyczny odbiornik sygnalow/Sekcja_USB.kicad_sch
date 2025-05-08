@@ -1,0 +1,68 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7abe1ea2-d3b4-41bb-8532-2055c8015d12")
+	(paper "A4")
+	(title_block
+		(title "${Project Title}")
+		(date "${Date Start Schematic}")
+		(rev "${Project Revision}")
+		(company "${Company}")
+		(comment 1 "${Engineer}")
+		(comment 2 "${Email}")
+		(comment 3 "${Phone Number}")
+		(comment 4 "${Project Reason}")
+	)
+	(lib_symbols)
+	(text "${Project Complete}"
+		(exclude_from_sim no)
+		(at 38.1 12.7 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2cb78310-0832-4d54-bdbe-be617df9451c")
+	)
+	(text "OOS - ${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 139.7 19.05 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "436cec99-456e-4e90-ad98-9f3aa4fce5d6")
+	)
+	(text "${Document Status}"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b72e74ab-e0b4-4479-8595-cbc61c215847")
+	)
+	(polyline
+		(pts
+			(xy 12.7 25.4) (xy 284.48 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7310c334-859a-4da1-b580-6014aca31b02")
+	)
+)
