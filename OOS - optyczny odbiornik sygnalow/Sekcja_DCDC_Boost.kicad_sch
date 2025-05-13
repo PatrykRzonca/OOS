@@ -1189,6 +1189,30 @@
 		)
 		(uuid "93857fe2-620b-4bc2-bf46-bf838dc9c913")
 	)
+	(text_box "Review notes:\n- Adding test points for circuits\n- Adding LED diodes for input and output\n- Changing U3 for IC with max output voltage +32V\n- Change output capacitor voltage rating more than 50V when output will be +32V\n- Remove 4 points cross connection for nets\n- Add net tie for SHDN pin, easy for test\n- Add pi filter ion the input\n- Change diode D4 due to the low breakdown voltage, Vout = 32V do not have enough margin\n- Add output solder jumper or 0R resistor, to measure only BOOST converter easier\n- Check the inductor on tdk.com current\n- R15, Voltage rating 75V, from where?\n- Change placement of pin 2 and 3 for U3 for better connection"
+		(exclude_from_sim no)
+		(at 93.98 151.13 0)
+		(size 59.055 46.355)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.2032)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 68 62 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "99b4581d-fef4-458d-bdc2-6c1d89b2062e")
+	)
 	(text_box "for dI_{(p-p)} = 0.1 * I_{max} = 35mA\nL_{min} = 7.18uH"
 		(exclude_from_sim no)
 		(at 121.412 69.088 0)
@@ -1951,7 +1975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1324dff0-b239-4768-971d-f2e234d2db74")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 169.418 87.376 0)
 			(effects
 				(font
@@ -2103,7 +2127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17115dd7-2a06-423a-b085-b936c0e527db")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 129.032 87.376 0)
 			(effects
 				(font
@@ -2213,7 +2237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19b5a6d2-f6de-4f73-92ed-2224eb76b797")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR028"
 			(at 187.96 81.28 0)
 			(effects
 				(font
@@ -2289,7 +2313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22f88802-78a2-4e08-982d-ff8d2fa6090b")
-		(property "Reference" "C?"
+		(property "Reference" "C13"
 			(at 99.06 93.98 0)
 			(effects
 				(font
@@ -2429,7 +2453,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "381d2e72-6e7f-4a86-be7d-76d13e577013")
-		(property "Reference" "C?"
+		(property "Reference" "C14"
 			(at 179.07 87.63 0)
 			(effects
 				(font
@@ -2569,7 +2593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c665575-0c3f-43d6-845e-e418ca68a49a")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 98.298 81.28 0)
 			(effects
 				(font
@@ -2721,7 +2745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6069bba8-4af1-43cf-a09d-2dcf2165fca5")
-		(property "Reference" "R?"
+		(property "Reference" "R15"
 			(at 169.418 105.156 0)
 			(effects
 				(font
@@ -2874,7 +2898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ccd9686-3831-4dde-8c91-36c9eff2faf8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR026"
 			(at 143.51 120.65 0)
 			(effects
 				(font
@@ -2945,7 +2969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "986f3054-24e1-4778-a9e1-4f895777fdb6")
-		(property "Reference" "D?"
+		(property "Reference" "D4"
 			(at 155.702 78.232 0)
 			(effects
 				(font
@@ -3078,7 +3102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9db2a1ff-6c15-4432-b0ce-88ef189f496f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR024"
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -3154,7 +3178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3e59efe-f6ce-43e4-9028-80f4c4eec9c7")
-		(property "Reference" "C?"
+		(property "Reference" "C15"
 			(at 190.5 87.63 0)
 			(effects
 				(font
@@ -3295,7 +3319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d65cc717-9691-4270-8821-a573f00c84b8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR027"
 			(at 187.96 120.65 0)
 			(effects
 				(font
@@ -3366,7 +3390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d905f1da-9408-425e-b7ce-116db991d1ed")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 131.064 78.994 90)
 			(effects
 				(font
@@ -3492,7 +3516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc4faea5-e2f7-4cdb-b288-9d9549f0f827")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR023"
 			(at 167.64 120.65 0)
 			(effects
 				(font
@@ -3564,7 +3588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e044ad27-1735-4ed8-b401-dd7d81d941f9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR025"
 			(at 96.52 111.76 0)
 			(effects
 				(font
@@ -3635,7 +3659,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "ecf8829e-3357-4e9d-ad32-41fa9ea2e951")
-		(property "Reference" "C?"
+		(property "Reference" "C16"
 			(at 109.22 93.98 0)
 			(effects
 				(font
