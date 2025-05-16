@@ -2087,6 +2087,30 @@
 		)
 		(uuid "dc9887d5-c8f6-4ca4-9c80-2872ca3d1395")
 	)
+	(text_box "Review notes:\n - provide datasheet links to C1 - C6,\n - change footprint for passive components for \"HandSolder\" equivalent size,\n - change V_photo text from +20V up to +32V,\n - provide links to Supplier's website. Saves time during search, order and veryfying nr in stock,\n - decimal writing not consistant. Please use only \",\" or only \".\",\n - provide calculations for voltage dividers R5 - R7, \n - capacitors connected to V_{photo} (C7 - C9) need voltage rating at least 2 * 32V,\n - net labels around U1 and U2 are covered by test points and nets. Also make them a bit larger,\n - Find different C7 with X7R dielectric\n - add layout notes."
+		(exclude_from_sim no)
+		(at 230.632 28.194 0)
+		(size 50.673 43.18)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.2032)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 68 62 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "39a1da3d-2b1e-4308-b11f-02e152c3b332")
+	)
 	(text_box "Design note:\n- Add capacitor C110 (100n)\n- Add capacitor C109 after revire (10n)\n- Change capacitor C101 from 3p to 1p\n- Change capacitor C103 from 1n to 100p\n- Change resistor from 1k to 100\n- Change resistor from 10k to 1k\n- Change capacitor from 1n to 1p"
 		(exclude_from_sim no)
 		(at 68.58 151.13 0)
