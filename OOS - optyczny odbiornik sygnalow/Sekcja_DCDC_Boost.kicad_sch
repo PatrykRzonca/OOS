@@ -1489,10 +1489,10 @@
 		)
 		(uuid "93857fe2-620b-4bc2-bf46-bf838dc9c913")
 	)
-	(text_box "Review notes:\n- Adding test points for circuits\n- Adding LED diodes for input and output\n- Changing U3 for IC with max output voltage +32V\n- Change output capacitor voltage rating more than 50V when output will be +32V\n- Remove 4 points cross connection for nets\n- Add net tie for SHDN pin, easy for test\n- Add pi filter ion the input\n- Change diode D4 due to the low breakdown voltage, Vout = 32V do not have enough margin\n- Add output solder jumper or 0R resistor, to measure only BOOST converter easier\n- Check the inductor on tdk.com current\n- R15, Voltage rating 75V, from where?\n- Change placement of pin 2 and 3 for U3 for better connection"
+	(text_box "Review notes:\n- Adding test points for circuits - Done\n- Adding LED diodes for input and output - On other pages. Done\n- Changing U3 for IC with max output voltage +32V - IC is ok. Done\n- Change output capacitor voltage rating more than 50V when output will be +32V - Done\n- Remove 4 points cross connection for nets - Done\n- Add net tie for SHDN pin, easy for test - Done\n- Add pi filter ion the input - Will be implemented on USB page.\n- Change diode D4 due to the low breakdown voltage, Vout = 32V do not have enough margin - Done\n- Add output solder jumper or 0R resistor, to measure only BOOST converter easier - Done\n- Check the inductor on tdk.com current - Done\n- R15, Voltage rating 75V, from where? - Done\n---------------------------------------------------\n- Change placement of pin 2 and 3 for U3 for better connection - Done\n- Chanege ~{SHDN} to U3_~{SHDN}"
 		(exclude_from_sim no)
 		(at 93.98 151.13 0)
-		(size 59.055 46.355)
+		(size 81.915 46.355)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.2032)
@@ -2605,7 +2605,7 @@
 			(at 113.03 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -2614,7 +2614,7 @@
 			(at 113.03 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -2623,7 +2623,7 @@
 			(at 113.03 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -2747,29 +2747,11 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW06031M00FKEA"
-			(at 172.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "TME"
 			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier link" "https://www.tme.eu/pl/en/details/crcw06031m00fkea/smd-resistors/vishay/"
-			(at 172.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2819,7 +2801,7 @@
 			(at 138.43 90.17 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -2828,7 +2810,7 @@
 			(at 138.43 90.17 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -2837,16 +2819,7 @@
 			(at 138.43 90.17 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AP3015KTR-G1"
-			(at 138.43 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -2855,16 +2828,7 @@
 			(at 138.43 90.17 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier link" "https://www.tme.eu/pl/details/ap3015ktr-g1/regulatory-napiecia-uklady-dc-dc/diodes-incorporated/"
-			(at 138.43 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3055,15 +3019,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN " "GRM188Z71C475KE21D"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "TME"
 			(at 87.63 92.71 0)
 			(effects
@@ -3077,7 +3032,7 @@
 			(at 87.63 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3259,15 +3214,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "06035C100KAT2A"
-			(at 182.88 83.82 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "TME"
 			(at 182.88 83.82 0)
 			(effects
@@ -3281,7 +3227,7 @@
 			(at 182.88 83.82 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3475,15 +3421,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW06030000Z0EA"
-			(at 87.63 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "TME"
 			(at 87.63 80.01 0)
 			(effects
@@ -3497,7 +3434,7 @@
 			(at 87.63 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3621,15 +3558,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AC0603FR-0710KL"
-			(at 125.73 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "TME"
 			(at 125.73 102.87 0)
 			(effects
@@ -3643,7 +3571,7 @@
 			(at 125.73 102.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3767,29 +3695,11 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ3EKF4022V"
-			(at 172.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "TME"
 			(at 172.72 104.14 0)
 			(effects
 				(font
 					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier link" "https://www.tme.eu/pl/en/details/erj3ekf4022v/smd-resistors/panasonic/"
-			(at 172.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3887,22 +3797,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ccd9686-3831-4dde-8c91-36c9eff2faf8")
 		(property "Reference" "#PWR026"
 			(at 149.86 116.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "0V"
-			(at 149.86 115.57 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -3910,7 +3819,7 @@
 			(at 149.86 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3919,7 +3828,7 @@
 			(at 149.86 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3928,7 +3837,7 @@
 			(at 149.86 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3953,22 +3862,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ccd9686-3831-4dde-8c91-36c9eff2faf9")
 		(property "Reference" "#PWR025"
 			(at 125.73 116.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "0V"
-			(at 125.73 115.57 0)
+			(at 127 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -3976,7 +3884,7 @@
 			(at 125.73 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3985,7 +3893,7 @@
 			(at 125.73 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -3994,7 +3902,7 @@
 			(at 125.73 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4040,7 +3948,7 @@
 			(at 163.83 73.025 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4049,7 +3957,7 @@
 			(at 162.814 82.042 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4058,49 +3966,16 @@
 			(at 166.116 80.518 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
-			)
-		)
-		(property "Forward V" "0.5V_{fr}"
-			(at 161.29 80.772 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Reverse V" "60V_{br}"
-			(at 167.386 80.772 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Current" "2A"
-			(at 164.338 80.772 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
 			)
 		)
 		(property "Package" "SOD123"
 			(at 163.83 77.47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "STPS0560Z"
-			(at 163.83 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4109,16 +3984,7 @@
 			(at 163.83 77.47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier link" "https://www.tme.eu/pl/en/details/stps0560z/smd-schottky-diodes/stmicroelectronics/"
-			(at 163.83 84.074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4370,15 +4236,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN " "CGA6P1X7R1N106K250AC"
-			(at 193.04 86.36 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "TME"
 			(at 193.04 86.36 0)
 			(effects
@@ -4392,7 +4249,7 @@
 			(at 193.04 86.36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4420,22 +4277,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d65cc717-9691-4270-8821-a573f00c84b8")
 		(property "Reference" "#PWR029"
 			(at 193.04 116.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "0V"
-			(at 193.04 115.57 0)
+			(at 194.31 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -4443,7 +4299,7 @@
 			(at 193.04 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4452,7 +4308,7 @@
 			(at 193.04 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4461,7 +4317,7 @@
 			(at 193.04 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4507,7 +4363,7 @@
 			(at 138.43 77.47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4516,7 +4372,7 @@
 			(at 138.43 77.47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4525,17 +4381,9 @@
 			(at 138.43 77.47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Current" "0.45A"
-			(at 142.24 78.74 90)
-			(effects
-				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "10%"
@@ -4554,29 +4402,11 @@
 				)
 			)
 		)
-		(property "MPN" "NLCV32T-100K-EF"
-			(at 138.43 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "TME"
 			(at 138.43 77.47 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier link" "https://www.tme.eu/pl/en/details/nlcv32t-100k-ef/inductors/tdk/"
-			(at 138.43 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4604,22 +4434,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc4faea5-e2f7-4cdb-b288-9d9549f0f827")
 		(property "Reference" "#PWR027"
 			(at 172.72 116.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "0V"
-			(at 172.72 115.57 0)
+			(at 173.99 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -4627,7 +4456,7 @@
 			(at 172.72 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4636,7 +4465,7 @@
 			(at 172.72 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4645,7 +4474,7 @@
 			(at 172.72 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4670,22 +4499,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e044ad27-1735-4ed8-b401-dd7d81d941f9")
 		(property "Reference" "#PWR024"
 			(at 87.63 107.95 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "0V"
-			(at 87.63 106.68 0)
+			(at 88.9 104.14 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -4693,7 +4521,7 @@
 			(at 87.63 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4702,7 +4530,7 @@
 			(at 87.63 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4711,7 +4539,7 @@
 			(at 87.63 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4820,15 +4648,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1H104K080AA"
-			(at 97.79 92.71 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "TME"
 			(at 97.79 92.71 0)
 			(effects
@@ -4842,7 +4661,7 @@
 			(at 97.79 92.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -4966,15 +4785,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW06030000Z0EA"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "TME"
 			(at 193.04 71.12 0)
 			(effects
@@ -4988,7 +4798,7 @@
 			(at 193.04 71.12 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
